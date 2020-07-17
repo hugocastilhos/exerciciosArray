@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Desafio {
 	public static void main(String[] args) {
+		
+		// Desafio foreach
 
 		Scanner entrada = new Scanner(System.in);
 
@@ -27,7 +29,7 @@ public class Desafio {
 		}
 		
 		double media = total / notas.length;
-		System.out.println("A média é: " + media + " !");
+		System.out.println("A mÃ©dia Ã©: " + media + " !");
 	
 		entrada.close();
 
